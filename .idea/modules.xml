@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Standup.iml" filepath="$PROJECT_DIR$/Standup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stup/stup.iml" filepath="$PROJECT_DIR$/stup/stup.iml" />
+    </modules>
+  </component>
+</project>
+
