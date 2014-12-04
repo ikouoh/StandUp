@@ -1,10 +1,8 @@
 package ibyscus.standup.stup;
 
+import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.content.res.AssetManager;
 import android.view.View;
 import android.widget.TextView;
@@ -17,10 +15,10 @@ import java.io.ObjectInputStream;
 import java.util.ArrayList;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends Activity {
 
     TextView ecran;
-    Button btn;
+    Button b_new_game, b_options;
 
 
     @Override
@@ -28,46 +26,29 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btn = (Button) findViewById(R.id.bNouvellePartie);
+        //Setup BDD
+        Setup s = new Setup(this);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        //init les boutons
+        b_new_game = (Button) findViewById(R.id.b_new_game);
+        b_options = (Button) findViewById(R.id.b_options);
+
+        //Listener bouton 'new game'
+        b_new_game.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startClick();
             }
         });
 
 
-        //Setup BDD
-        Setup s = new Setup(this);
+
 
         //CarteDAO carteBdd = new CarteDAO(this);
         //Carte carteFromBdd = carteBdd.getCarteWithTitre("Football");
         //carteBdd.close();
-
-
         //ecran.setText(s.test());       //carteFromBdd.getIntituleCarte()
-
-
-
     }
 
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-        return id == R.id.action_settings || super.onOptionsItemSelected(item);
-    }
 
     public String newGame(){
 
@@ -116,11 +97,5 @@ public class MainActivity extends ActionBarActivity {
         Intent intent = new Intent(this, GameActivity.class);
         startActivity(intent);
 
-        /*
-        setContentView(R.layout.game);
-
-        ecran = (TextView) findViewById(R.id.TV_MotCourant);
-        ecran.setText("ahaha");
-        */
     }
 }

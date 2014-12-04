@@ -1,44 +1,40 @@
-<TableLayout
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange_overlay"
+    android:gravity="center"
+    tools:context="ibyscus.standup.stup.GameActivity">
 
-    <TableRow
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center" >
 
-        <Button
-            android:layout_width="225dp"
-            android:layout_height="35dp"
-            android:text="Nouvelle Partie"
-            android:id="@+id/bNouvellePartie"
-        />
-    </TableRow>
+                <Button
+                    android:layout_width="225dp"
+                    android:layout_height="wrap_content"
+                    android:text="Nouvelle Partie"
+                    android:id="@+id/b_new_game"
+                    />
 
-    <TableRow
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+                <Button
+                    android:layout_width="225dp"
+                    android:layout_height="wrap_content"
+                    android:text="Options"
+                    android:id="@+id/b_options"
+                    />
 
-        <Button
-            android:layout_width="225dp"
-            android:layout_height="35dp"
-            android:text="Options"
-            android:id="@+id/bOptions"
-        />
-    </TableRow>
+                <Button
+                    android:layout_width="225dp"
+                    android:layout_height="wrap_content"
+                    android:text="Gestion d'Equipes"
+                    android:id="@+id/b_team_management"
+                    android:enabled="false"
+                    />
 
-    <TableRow
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        </LinearLayout>
 
-        <Button
-            android:layout_width="225dp"
-            android:layout_height="35dp"
-            android:text="Gestion d'Equipes"
-            android:id="@+id/bEquipes"
-            android:enabled="false"
-        />
+</FrameLayout>
 
-    </TableRow>
-
-</TableLayout>

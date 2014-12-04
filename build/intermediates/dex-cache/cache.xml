@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<pre-dex-items>
+<items version="2" >
 
     <item
-        dex="C:\Users\ibyscus\AndroidStudioProjects\Standup\stup\build\intermediates\pre-dexed\debug\support-v4-19.1.0-71bf745acfd0ae1726a7503620bdc0fd7833af7f.jar"
-        jar="C:\Users\ibyscus\Documents\adt-bundle-windows-x86_64-20140321\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jar="C:\Users\ibyscus\Documents\adt-bundle-windows-x86_64-20140321\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.2\support-annotations-21.0.2.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
+        <dex dex="C:\Users\ibyscus\AndroidStudioProjects\Standup\stup\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-7625e57002d99521aff681c5a1194ea3670f2754.jar" />
+    </item>
     <item
-        dex="C:\Users\ibyscus\AndroidStudioProjects\Standup\stup\build\intermediates\pre-dexed\debug\classes-9ee691d2e4f39bb1fe8bdd5c549617b4b0b8e230.jar"
-        jar="C:\Users\ibyscus\AndroidStudioProjects\Standup\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jar="C:\Users\ibyscus\AndroidStudioProjects\Standup\stup\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\classes.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="C:\Users\ibyscus\AndroidStudioProjects\Standup\stup\build\intermediates\pre-dexed\debug\classes-e69f56873c9c8b29d3a2a8a1aca18d5d084fe0de.jar" />
+    </item>
     <item
-        dex="C:\Users\ibyscus\AndroidStudioProjects\Standup\stup\build\intermediates\pre-dexed\debug\classes-130abaa23f027931b26172ac0327550d09db1803.jar"
-        jar="C:\Users\ibyscus\AndroidStudioProjects\Standup\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\19.1.0\classes.jar"
+        jar="C:\Users\ibyscus\AndroidStudioProjects\Standup\stup\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\21.0.2\classes.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="af4cc326e6cd92f88db12298767e521743aedd36"/>
+        sha1="9742ced04aafd9ac97dd2c66c1aa0e32d2ae7e54">
+        <dex dex="C:\Users\ibyscus\AndroidStudioProjects\Standup\stup\build\intermediates\pre-dexed\debug\classes-a03751f8faa2875786617f7af700e27f2c9db8a4.jar" />
+    </item>
+    <item
+        jar="C:\Users\ibyscus\AndroidStudioProjects\Standup\stup\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\libs\internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="C:\Users\ibyscus\AndroidStudioProjects\Standup\stup\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-896d12121038cb5da78e0cfdba97c6188bbc98e2.jar" />
+    </item>
 
-</pre-dex-items>
+</items>

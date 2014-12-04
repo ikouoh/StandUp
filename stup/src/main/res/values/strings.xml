@@ -4,8 +4,10 @@
     <string name="app_name">Stand up</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_game">GameActivity</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_game">Stand Up</string>
+    <string name="b_valid">Valid</string>
+    <string name="b_pass">Pass</string>
+    <string name="tv_word">mot 1</string>
+    <string name="title_activity_main_options">Options</string>
 
 </resources>

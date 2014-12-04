@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0099cc"
+    android:background="@color/orange_overlay"
     tools:context="ibyscus.standup.stup.GameActivity">
 
     <!-- The primary full-screen view. This can be replaced with whatever view
@@ -16,7 +16,7 @@
         android:textStyle="bold"
         android:textSize="50sp"
         android:gravity="center"
-        android:text="@string/dummy_content" />
+        android:text="@string/tv_word" />
 
     <!-- This FrameLayout insets its children based on system windows using
          android:fitsSystemWindows. -->
@@ -33,12 +33,21 @@
             android:orientation="horizontal"
             tools:ignore="UselessParent">
 
-            <Button android:id="@+id/dummy_button"
+            <Button android:id="@+id/b_pass"
                 style="?metaButtonBarButtonStyle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/dummy_button" />
+                android:background="@color/red_overlay"
+                android:text="@string/b_pass" />
+
+            <Button android:id="@+id/b_valid"
+                style="?metaButtonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/green_overlay"
+                android:text="@string/b_valid" />
 
         </LinearLayout>
     </FrameLayout>
